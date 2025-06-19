@@ -14,16 +14,14 @@ const Footer = () => {
                 className="h-10 w-auto"
               />
               <span className="text-xl font-bold">MKB Renovations</span>
-            </div>
-            <p className="text-gray-300 mb-4 leading-relaxed">
-              Professional kitchen and bathroom renovation services in Minnehaha, Washington. 
+            </div>            <p className="text-gray-300 mb-4 leading-relaxed">
+              Professional kitchen and bathroom renovation services serving Vancouver, Washington and the Portland, Oregon metro area. 
               Transforming homes with quality craftsmanship and exceptional attention to detail.
-            </p>
-            <div className="flex items-center space-x-2 text-gray-300">
+            </p>            <div className="flex items-center space-x-2 text-gray-300">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
               </svg>
-              <span>Minnehaha, Washington</span>
+              <span>Vancouver, WA & Portland, OR</span>
             </div>
           </div>
 

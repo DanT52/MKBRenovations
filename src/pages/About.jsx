@@ -9,9 +9,8 @@ const About = ({ onOpenContactModal }) => {
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
               About MKB Renovations
-            </h1>
-            <p className="text-xl md:text-2xl leading-relaxed">
-              Your trusted partner for kitchen and bathroom transformations in Minnehaha, Washington
+            </h1>            <p className="text-xl md:text-2xl leading-relaxed">
+              Your trusted partner for kitchen and bathroom transformations serving Vancouver, Washington and the Portland, Oregon area
             </p>
           </div>
         </div>

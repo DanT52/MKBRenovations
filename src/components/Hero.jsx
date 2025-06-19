@@ -26,11 +26,10 @@ const Hero = () => {
       <div className="relative z-10 text-center text-white container-custom">        <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
           Transform Your
           <span className="block bg-gradient-to-r from-green-400 via-green-500 to-green-600 bg-clip-text text-transparent">Dream Space</span>
-        </h1>
-        <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
-          Expert kitchen and bathroom renovations in Minnehaha, Washington. 
+        </h1>        <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
+          Expert kitchen and bathroom renovations serving Vancouver, Washington and the Portland, Oregon area. 
           Where quality craftsmanship meets exceptional design.
-        </p>        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        </p><div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button onClick={scrollToServices} className="btn-primary text-lg px-8 py-4">
             Our Services
           </button>
