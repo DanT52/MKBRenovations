@@ -102,10 +102,6 @@ public/
 - **Phone**: (360) 991-7646
 - **Specialties**: Kitchen and Bathroom Renovations
 
-## Mobile Responsiveness
 
-The website is fully responsive and optimized for mobile devices with touch-friendly navigation and components.
 
----
 
-Built with ❤️ for MKB Renovations
