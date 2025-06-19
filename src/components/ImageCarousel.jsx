@@ -140,10 +140,9 @@ const ImageCarousel = () => {
     setFilter(newFilter);
     setCurrentImageIndex(0); // Reset to first image when filter changes
   };
-
   return (
-    <section className="section-padding bg-white">
-      <div className="container-custom">        <div className="text-center mb-16">
+    <section className="section-padding bg-white" data-section="recent-work">
+      <div className="container-custom"><div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Our Recent Work
           </h2>

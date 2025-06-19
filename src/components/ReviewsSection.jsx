@@ -2,7 +2,10 @@ import { reviews } from '../data/reviews';
 import { useState } from 'react';
 
 const Reviews = () => {
-  const [currentReview, setCurrentReview] = useState(0);
+  // Start at a random review instead of always starting at 0
+  const [currentReview, setCurrentReview] = useState(() => 
+    Math.floor(Math.random() * reviews.length)
+  );
 
   const nextReview = () => {
     setCurrentReview((prev) => (prev + 1) % reviews.length);

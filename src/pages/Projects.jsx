@@ -1,6 +1,22 @@
 import Footer from '../components/Footer';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Projects = () => {
+  const navigate = useNavigate();
+
+  const handleViewRecentWork = () => {
+    navigate('/');
+    // Small delay to ensure the page has loaded before scrolling
+    setTimeout(() => {
+      const recentWorkSection = document.querySelector('[data-section="recent-work"]');
+      if (recentWorkSection) {
+        recentWorkSection.scrollIntoView({ 
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    }, 100);
+  };
   return (
     <div>      {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-green-800 via-green-700 to-primary text-white section-padding">
@@ -56,12 +72,10 @@ const Projects = () => {
                   <li>• Plumbing and electrical updates</li>
                 </ul>
               </div>
-            </div>
-
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="/" className="btn-primary">
+            </div>            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <button onClick={handleViewRecentWork} className="btn-primary">
                 View Recent Work
-              </a>
+              </button>
               <a href="tel:+13609917646" className="btn-secondary">
                 Call (360) 991-7646
               </a>
