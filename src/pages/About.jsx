@@ -1,4 +1,5 @@
 import Footer from '../components/Footer';
+import MarkImage from '/img/mark.webp';
 
 const About = ({ onOpenContactModal }) => {
   return (
@@ -42,10 +43,9 @@ const About = ({ onOpenContactModal }) => {
               <a href="tel:+13609917646" className="btn-primary">
                 Call (360) 991-7646
               </a>
-            </div>
-            <div className="lg:order-first">
+            </div>            <div className="lg:order-first">
               <img
-                src="/img/mark.webp"
+                src={MarkImage}
                 alt="Mark Pavliuk - Owner of MKB Renovations"
                 className="w-full rounded-2xl shadow-2xl"
               />

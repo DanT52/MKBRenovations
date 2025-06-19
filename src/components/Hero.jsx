@@ -1,3 +1,5 @@
+import HeroImage from '/img/Hero.jpg';
+
 const Hero = () => {
   const scrollToServices = (e) => {
     e.preventDefault();
@@ -16,7 +18,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/img/Hero.jpg')`
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('${HeroImage}')`
         }}
       />
       

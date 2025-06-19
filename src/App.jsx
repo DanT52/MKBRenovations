@@ -11,7 +11,7 @@ function App() {
   const [isContactModalOpen, setIsContactModalOpen] = useState(false);
 
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <div className="min-h-screen bg-white">
         <Navbar />
         <Routes>

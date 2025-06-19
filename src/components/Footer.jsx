@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import Logo from '/img/MKBLOGO.png';
 
 const Footer = () => {
   return (
@@ -6,10 +7,9 @@ const Footer = () => {
       <div className="container-custom py-12">
         <div className="grid md:grid-cols-4 gap-8">
           {/* Company Info */}
-          <div className="md:col-span-2">
-            <div className="flex items-center space-x-3 mb-4">
+          <div className="md:col-span-2">            <div className="flex items-center space-x-3 mb-4">
               <img 
-                src="/img/MKBLOGO.png" 
+                src={Logo} 
                 alt="MKB Renovations" 
                 className="h-10 w-auto"
               />

@@ -1,4 +1,21 @@
 import { useState, useEffect } from 'react';
+// Kitchen images
+import Kitchen1 from '/img/showcase/kitchen/IMG_4930.jpg';
+import Kitchen2 from '/img/showcase/kitchen/IMG_4931.JPG';
+import Kitchen3 from '/img/showcase/kitchen/IMG_1186.jpg';
+import Kitchen4 from '/img/showcase/kitchen/IMG_1201(1).jpg';
+import Kitchen5 from '/img/showcase/kitchen/IMG_1202.jpg';
+import Kitchen6 from '/img/showcase/kitchen/IMG_2368(1).jpg';
+import Kitchen7 from '/img/showcase/kitchen/IMG_2382(1).jpg';
+import Kitchen8 from '/img/showcase/kitchen/IMG_3220.jpg';
+import Kitchen9 from '/img/showcase/kitchen/IMG_8980.jpg';
+import Kitchen10 from '/img/showcase/kitchen/IMG_8982.jpg';
+// Bathroom images
+import Bathroom1 from '/img/showcase/Bathroom/IMG_3542.JPG';
+import Bathroom2 from '/img/showcase/Bathroom/IMG_3986.jpg';
+import Bathroom3 from '/img/showcase/Bathroom/IMG_4919.JPG';
+import Bathroom4 from '/img/showcase/Bathroom/IMG_4921.JPG';
+import Bathroom5 from '/img/showcase/Bathroom/IMG_8015.JPG';
 
 const ImageCarousel = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -8,78 +25,78 @@ const ImageCarousel = () => {
   const images = [
     // Kitchen images
     {
-      src: '/img/showcase/kitchen/IMG_4930.JPG',
+      src: Kitchen1,
       alt: 'Modern Kitchen Renovation',
       category: 'Kitchen'
     },
     {
-      src: '/img/showcase/kitchen/IMG_4931.JPG',
+      src: Kitchen2,
       alt: 'Kitchen Design',
       category: 'Kitchen'
     },
     {
-      src: '/img/showcase/kitchen/IMG_1186.jpg',
+      src: Kitchen3,
       alt: 'Kitchen Remodel',
       category: 'Kitchen'
     },
     {
-      src: '/img/showcase/kitchen/IMG_1201(1).jpg',
+      src: Kitchen4,
       alt: 'Custom Kitchen Cabinets',
       category: 'Kitchen'
     },
     {
-      src: '/img/showcase/kitchen/IMG_1202.jpg',
+      src: Kitchen5,
       alt: 'Modern Kitchen Island',
       category: 'Kitchen'
     },
     {
-      src: '/img/showcase/kitchen/IMG_2368(1).jpg',
+      src: Kitchen6,
       alt: 'Kitchen Countertops',
       category: 'Kitchen'
     },
     {
-      src: '/img/showcase/kitchen/IMG_2382(1).jpg',
+      src: Kitchen7,
       alt: 'Kitchen Backsplash',
       category: 'Kitchen'
     },
     {
-      src: '/img/showcase/kitchen/IMG_3220.jpg',
+      src: Kitchen8,
       alt: 'Contemporary Kitchen',
       category: 'Kitchen'
     },
     {
-      src: '/img/showcase/kitchen/IMG_8980.jpg',
+      src: Kitchen9,
       alt: 'Kitchen Lighting',
       category: 'Kitchen'
     },
     {
-      src: '/img/showcase/kitchen/IMG_8982.jpg',
+      src: Kitchen10,
       alt: 'Kitchen Appliances',
       category: 'Kitchen'
     },
     // Bathroom images
     {
-      src: '/img/showcase/Bathroom/IMG_3542.JPG',
+      src: Bathroom1,
       alt: 'Bathroom Remodel',
       category: 'Bathroom'
     },
     {
-      src: '/img/showcase/Bathroom/IMG_3986.jpg',
+      src: Bathroom2,
       alt: 'Modern Bathroom Vanity',
       category: 'Bathroom'
     },
     {
-      src: '/img/showcase/Bathroom/IMG_4919.JPG',
+      src: Bathroom3,
       alt: 'Modern Bathroom',
       category: 'Bathroom'
     },
     {
-      src: '/img/showcase/Bathroom/IMG_4921.JPG',
+      src: Bathroom4,
       alt: 'Luxury Bathroom',
       category: 'Bathroom'
     },
     {
-      src: '/img/showcase/Bathroom/IMG_8015.JPG',
+      src: Bathroom5,
       alt: 'Bathroom Design',
       category: 'Bathroom'
     }  ];
